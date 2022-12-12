@@ -1,0 +1,51 @@
+.container {
+    margin-left: 20px
+}
+body {
+    font-family: Arial;
+    background-color: #4915f8;
+}
+
+.signin:hover {
+    text-decoration:underline;
+}
+
+.section-1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.section-2 {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    color: white;
+}
+
+.section-4 {
+    display: flex;
+    
+    align-items: center;
+    justify-content: center;
+    color: white;
+    padding: 50px 0px;
+}
+
+.left {
+    flex: 0 1 500px;
+}
+
+.right {
+    flex: 0 1 400px;
+}
+
+input[type="button"] {
+    border-radius: 30px;
+    border-style: none;
+    font-size: medium;
+    font-weight: bold;
+    color: white;
+    height: 42px;
+    width: 150px;
+}
