@@ -21,6 +21,8 @@ body {
     align-items: center;
     padding: 10px;
     color: white;
+    /* My changes */
+    justify-content: center;
 }
 
 .section-4 {
